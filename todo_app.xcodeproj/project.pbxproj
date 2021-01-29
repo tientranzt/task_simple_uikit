@@ -13,6 +13,8 @@
 		FF4D3C7325C30C2100CEA22D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF4D3C7125C30C2100CEA22D /* Main.storyboard */; };
 		FF4D3C7525C30C2300CEA22D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF4D3C7425C30C2300CEA22D /* Assets.xcassets */; };
 		FF4D3C7825C30C2300CEA22D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF4D3C7625C30C2300CEA22D /* LaunchScreen.storyboard */; };
+		FF4D3C8125C30D8100CEA22D /* TaskDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4D3C8025C30D8100CEA22D /* TaskDetailViewController.swift */; };
+		FF4D3C8425C30D9B00CEA22D /* AddTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4D3C8325C30D9B00CEA22D /* AddTaskViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		FF4D3C7425C30C2300CEA22D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FF4D3C7725C30C2300CEA22D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FF4D3C7925C30C2300CEA22D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF4D3C8025C30D8100CEA22D /* TaskDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskDetailViewController.swift; sourceTree = "<group>"; };
+		FF4D3C8325C30D9B00CEA22D /* AddTaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				FF4D3C6B25C30C2100CEA22D /* AppDelegate.swift */,
 				FF4D3C6D25C30C2100CEA22D /* SceneDelegate.swift */,
 				FF4D3C6F25C30C2100CEA22D /* ViewController.swift */,
+				FF4D3C8025C30D8100CEA22D /* TaskDetailViewController.swift */,
+				FF4D3C8325C30D9B00CEA22D /* AddTaskViewController.swift */,
 				FF4D3C7125C30C2100CEA22D /* Main.storyboard */,
 				FF4D3C7425C30C2300CEA22D /* Assets.xcassets */,
 				FF4D3C7625C30C2300CEA22D /* LaunchScreen.storyboard */,
@@ -139,7 +145,9 @@
 			files = (
 				FF4D3C7025C30C2100CEA22D /* ViewController.swift in Sources */,
 				FF4D3C6C25C30C2100CEA22D /* AppDelegate.swift in Sources */,
+				FF4D3C8125C30D8100CEA22D /* TaskDetailViewController.swift in Sources */,
 				FF4D3C6E25C30C2100CEA22D /* SceneDelegate.swift in Sources */,
+				FF4D3C8425C30D9B00CEA22D /* AddTaskViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
